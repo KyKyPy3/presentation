@@ -1,0 +1,5 @@
+package component:hello;
+
+world hello-city {
+  import component:cities/city-info;
+}

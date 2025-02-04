@@ -1,0 +1,5 @@
+package example:component;
+
+world plugin {
+  export transform: func(input: string) -> string;
+}

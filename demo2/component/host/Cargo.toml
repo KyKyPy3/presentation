@@ -1,0 +1,10 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+chrono = "0.4"
+wasmtime = "29.0.1"
+wasmtime-wasi = "29.0.1"

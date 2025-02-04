@@ -1,0 +1,9 @@
+package component:cities;
+
+interface city-info {
+  current-city: func() -> string;
+}
+
+world cities {
+  export city-info;
+}

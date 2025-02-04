@@ -1,0 +1,5 @@
+package example:component;
+
+world extensibility {
+    import transform: func(input: string) -> string;
+}

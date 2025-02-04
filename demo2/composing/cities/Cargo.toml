@@ -1,0 +1,11 @@
+[package]
+name = "cities"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wit-bindgen = "0.38.0"
+wit-bindgen-rt = "0.38.0"
+
+[lib]
+crate-type = ["cdylib"]
