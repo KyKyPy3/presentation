@@ -1,0 +1,15 @@
+{
+  "name": "reverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverse.js",
+  "scripts": {
+    "build": "npx ./bin/js2w.mjs -i reverse.js -o reverse.wasm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@bytecodealliance/componentize-js": "^0.16.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
